@@ -1,7 +1,13 @@
 function mostrar()
 {
 
-	var numero = prompt("ingrese un número entre 0 y 10.");
+	var numeroPedido = 0;
+	numeroPedido = prompt("Ingrese un numero");
+	numeroPedido = parseInt(numeroPedido);
 
-
+	while(numeroPedido < 0 || numeroPedido > 9)
+	{
+		numeroPedido = prompt("Ingrese un numero");
+		numeroPedido = parseInt(numeroPedido);
+	}
 }//FIN DE LA FUNCIÓN

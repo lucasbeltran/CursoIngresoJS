@@ -1,6 +1,12 @@
 function mostrar()
 {
-	alert('iteración while');
+	var numeroAsc=10;
+	
+	while(numeroAsc >0)
+	{
+		alert(numeroAsc);
+		numeroAsc--;
+	}
 
 
 }//FIN DE LA FUNCIÓN
